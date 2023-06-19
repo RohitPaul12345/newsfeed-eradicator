@@ -1,5 +1,5 @@
 
-var tryRemove = function () {
+let tryRemove = function () {
     document.querySelectorAll('div[id*=pagelet_ticker]').forEach(function(item) {
         item.remove()
     });
